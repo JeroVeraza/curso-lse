@@ -5,8 +5,9 @@
 #include "clock_config.h"
 #include "fsl_debug_console.h"
 #include "FreeRTOS.h"
-
 #include "task.h"
+
+#define USER 4
 
 void task_cont (void * params){
 	for(uint8_t i = 0; i ==60 ; i++){
